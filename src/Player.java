@@ -62,4 +62,16 @@ public class Player extends Character {
             System.out.printf("You picked %s up!\n", item);
         }
     }
+
+    public String getWeapon() {
+        return weapon;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public ArrayList<String> getItems() {
+        return items;
+    }
 }
